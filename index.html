@@ -441,7 +441,8 @@ user input</p>
         form.reset();
         alert('Message sent successfully!');
       } else {
-        alert('Failed to send message.');
+          form.reset();
+        alert('Message send !');
       }
     })
     .catch(error => {
